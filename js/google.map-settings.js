@@ -1,9 +1,9 @@
 // ==========  START GOOGLE MAP ========== //
 function initialize() {
-var myLatLng = new google.maps.LatLng(43.26081,-79.933149);
+var myLatLng = new google.maps.LatLng(53.3585952,-6.2694788);
 
 var mapOptions = {
-    zoom: 14,
+    zoom: 16,
     center: myLatLng,
 	disableDefaultUI: true,
 	scrollwheel: false,
@@ -28,9 +28,9 @@ var mapOptions = {
   
   var contentString = '<div style="max-width: 300px" id="content">'+
       '<div id="bodyContent">'+
-	  '<h5 class="color-primary"><strong>CompuDent</strong></h5>' +
-      '<p style="font-size: 12px">Lorem ipsum dolor sit amet,' +
-      'incididunt ut labore et dolore psum dolor magna aliqua.</p>'+
+	  '<h5 class="color-primary"><strong>Berkeley Hearing</strong></h5>' +
+      '<p style="font-size: 12px">12 Berkeley Road, Opposite the Mater' +
+      '.</p>'+
       '</div>'+
       '</div>';
 
